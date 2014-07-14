@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Header*/
+
+.header-bg {
+	background-repeat: repeat-x;
+	background-image:-webkit-linear-gradient(270deg,rgba(10,52,110,1.00) 0%,rgba(41,85,150,1.00) 100%);
+	background-image:-moz-linear-gradient(270deg,rgba(10,52,110,1.00) 0%,rgba(41,85,150,1.00) 100%);
+	background-image:-ms-linear-gradient(270deg,rgba(10,52,110,1.00) 0%,rgba(41,85,150,1.00) 100%);
+	background-image:linear-gradient(180deg,rgba(10,52,110,1.00) 0%,rgba(41,85,150,1.00) 100%);
+	overflow: hidden;
+	background-color: #0A346E;
+	padding:10px 0px 10px 0px;
+}
+
+.container {
+	max-width:1000px;
+}
+
+#branding img {
+	margin:0 auto;
+}
+
+header p {
+	margin-top:15px;	
+	color:#FFFFFF;
+}
+
+span.report-title {
+	font-weight:bold;
+	font-style:italic;	
+}
+
+
+
+
+/*Feature*/
+
+div.feature {
+	background-color: #e7eaee;
+	margin-top: 20px;
+	border: 4px dashed #AAA;
+	overflow:hidden;
+}
+
+div.leader {
+		
+}
+
+div.leader p {
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:1.3em;	
+}
+
+ul li.check {
+	list-style-image:url(http://www.investmentu.com/images/check.png);
+	margin: 5px 0 5px 0px;
+	font-size:1.2em;
+}
+
+h1 {
+	color: #465E06;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 20px;
+	font-weight:bold;
+}
+
+
+/*Form*/
+
+div.signup-form-label {
+	padding: 8px;
+	background: #CCC;
+	margin-bottom: 10px;
+	margin-top:20px;
+	font-weight:bold;
+}
+
+#arrow {
+	margin: 0;
+	padding: 0;
+	border-top: 20px solid #CCC;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: absolute;	
+}
+
+input[type=text] {
+	
+	width:100%; 
+	height: 50px; 
+	margin-top: 14px; 
+	margin-bottom: 16px; 
+	font-size: 15px; 
+	color: #999999; 
+	padding-left: 6px;
+	
+}
+
+input[type=submit] {
+	width:100%;
+	color:#003366; /*IU Blue*/
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	height:50px;
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#coreg {
+	font-size:small;	
+	color:#999999;
+}
+
+#coreg input {
+	margin-right:5px;	
+}
+
+/*Content*/
+
+h3.ribbon {
+	padding:10px 20px 10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#003366;	
+}
+
+p.small {
+	font-size:10px;	
+}
+
+/*Authors*/
+
+#authors .gurus {
+	background-color:#4b610f;	
+}
+
+#authors h3 {
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#authors .gurus-profile {
+	background-color: #eaeade;
+	border-right: 1px solid #fff;
+}
+
+#authors img {
+	margin:0px 10px 10px 0px;
+}
+
+#authors p.author-name {
+	font-weight:bold;	
+}
+
+#authors p.author-title {
+	font-weight:bold;	
+}
+
+#authors div.guru {	
+	overflow:hidden;
+	padding-top:15px;
+}
+
+/*
+*
+*	Report Styles
+*
+*/
+
+#report {
+	
+}
+
+h1.report-title {
+	color:#465E06;
+	text-align:center;
+	font-family:"museo-slab",Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight:700;
+}
+
+h2.report-subtitle {
+	color:#036;
+	font-style:italic;
+	margin-bottom:30px;
+	text-align:center;
+	font-family:"museo-slab",Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#report h3 {
+	color:#036;	
+	font-family:"museo-slab",Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#report h4 {
+	background-color:#036;
+	color:#FFF;
+	padding:5px;
+	text-align:left;
+	font-family:"museo-slab",Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+p.byline {
+
+}
+
+/*Footer*/
+
+footer {
+	margin-top:50px;
+	padding-top:10px;	
+	font-size:12px;
+	background-color:#F9F9F9;
+	border-top: 1px solid #e0dfdf;
+}
+
+footer img.footer-logo {
+	max-width:235px;	
+}
+
+span.iu {
+	font-size:1.3em;	
+}
+
+ul.footer-menu {
+	padding-left:0px;	
+}
+
+ul.footer-menu li {
+	list-style-type:none;
+	padding-left:0px;
+	font-weight:bold;
+	border-bottom:1px solid #DBDBDB;
+	margin-bottom:10px;
+}
+
+footer address {
+	display:inline;	
+}
+
+div.footer-legal {
+	color:#686868;
+	background-color:#dbdbdb;
+	font-size:11px;
+	padding-top:10px;
+}
+
+/*Social Icon Styles*/
+
+@font-face {
+    font-family:si;
+    src:    url(../fonts/socicon.eot?#iefix) 
+                format(embedded-opentype),
+            url(../fonts/socicon.woff) format(woff),
+            url(../fonts/socicon.ttf) format(truetype),
+            url(../fonts/socicon.svg) format(svg);
+    font-weight:400;
+    font-style:normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../fonts/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+	padding:12px;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-google {
+    background-color: #d93e2d;
+}
+.soc-google:before {
+    content:'c';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+
+/*End Social Icon Styles*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	#branding img {
+		margin:0px;	
+	}
+	
+	.header-message {
+		border-left:1px solid #FFFFFF;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	
+	
+}
